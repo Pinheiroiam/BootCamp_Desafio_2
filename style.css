@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+:root{
+    --color-secondary-: rgba(0, 0, 0, 0.4);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #000080	;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+header{
+    background-color: var(--color-secondary-);
+    padding: 30px;
+}
+
+header div{
+    text-align: center;
+}
+
+.links a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    margin: 30px;
+}
+
+.links a:hover{
+    color: green;
+    transition: 400ms;
+}
+
+#content{
+    text-align: center;
+}
+
+#avatar{
+    background-color: var(--color-secondary-);
+    max-width: 400px;
+    margin: 50px auto;
+    border-radius: 40px;
+    padding-bottom: 8px;
+}
+
+#avatar img{
+    max-width: 300px;
+    border: 4px solid green;
+    border-radius: 50%;
+    margin: 42px;
+}
+
+#avatar h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 32px;
+}
+
+div h2{
+    margin: 0 100px 0;
+}
+
+div p{
+    font-size: normal;
+    text-align: justify;
+    margin: 46px 100px;
+    line-height: 1.6;
+}
+
+
+div ul{
+    list-style-type: none;
+    background: var(--color-secondary-);
+    padding: 32px;
+    margin: 0 auto 100px;
+    max-width: 200px;
+    border-radius: 15px;
+}
+
+#linksFooter{
+    margin: 30px;
+}
